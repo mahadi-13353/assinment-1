@@ -4,17 +4,15 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+
 /* header section------------------------------------ */
-.header{
+.header {}
 
-}   
-.nav-title{ 
+.nav-title {}
 
-}
-
-.bennar{
+.bennar {
     background-image: url('../images/banner/banner1.png');
-    
+
     width: 1600px;
     height: 808px;
     left: 0;
@@ -23,7 +21,8 @@
 
 
 }
-.bennar-title{
+
+.bennar-title {
     position: absolute;
     width: 525px;
     height: 228px;
@@ -34,29 +33,31 @@
     line-height: 76px;
     text-align: right;
     color: #151414;
-   
+
 
 }
-.bennar-description{
-   
-    
-position: absolute;
-width: 494px;
-height: 78px;
-left: 876px;
-top: 468px;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
+
+.bennar-description {
 
 
-text-align: right;
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 
-color: #444343;
+
+    text-align: right;
+
+    color: #444343;
 
 }
+
 /* button-------------------------- */
-.btn-primary{
+.btn-primary {
     position: absolute;
     width: 160px;
     height: 64px;
@@ -67,49 +68,385 @@ color: #444343;
 
     text-align: right;
     padding: 20px 20px;
-    color:#FFFFFF;
-    background:#F15B22;
+    color: #FFFFFF;
+    background: #F15B22;
 }
-/* failures ------------------ */
-.failures{
- 
-position: absolute;
-width: 288px;
-height: 94px;
-left: 859px;
-top: 1174px;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
 
-/* Dark 01 */
-
-color: #151414;
-}
-.failures-dis{
+/* failures images------------ */
+.failures-images {
     position: absolute;
-width: 416px;
-height: 104px;
-left: 862px;
-top: 1296px;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #444343;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+
 }
-.contrary{
+
+/* failures ------------------ */
+.failures {
+
+    position: absolute;
+    width: 288px;
+    height: 94px;
+    left: 859px;
+    top: 1174px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #151414;
+}
+
+.failures-dis {
+    position: absolute;
+    width: 416px;
+    height: 104px;
+    left: 862px;
+    top: 1296px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.contrary {
     list-style: none;
     position: absolute;
-width: 349px;
-height: 162px;
-left: 862px;
-top: 1416px;
+    width: 349px;
+    height: 162px;
+    left: 862px;
+    top: 1416px;
 
 }
-.tick{
+
+.tick {
     color: green;
-    
+
 }
-li{
+
+li {
     margin-top: 10px;
+}
+
+/* my plans--------------------- */
+.plans-section {}
+
+.section-title {
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 711px;
+    top: 1792.3px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.my-plans {}
+
+.plans {}
+
+.plan-img {
+    position: absolute;
+    width: 92.96px;
+    height: 92.96px;
+    left: 330px;
+    top: 1901px;
+}
+
+.plans-title {
+    position: absolute;
+    width: 270px;
+    height: 35px;
+    left: 230px;
+    top: 2012.26px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #151414;
+}
+
+.plans-dis {
+    position: absolute;
+    width: 177px;
+    height: 29px;
+    left: 277px;
+    top: 2063.26px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.plan-img-java {
+    position: absolute;
+    width: 92.96px;
+    height: 92.96px;
+    left: 631px;
+    top: 1895px;
+
+}
+
+.plans-title-java {
+    position: absolute;
+    width: 156px;
+    height: 35px;
+    left: 599px;
+    top: 2006.3px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #151414;
+
+
+}
+
+.plans-dis-java {
+    position: absolute;
+    width: 181px;
+    height: 29px;
+    left: 586px;
+    top: 2057.3px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+
+}
+
+.plan-img-smk {
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 916px;
+    top: 1889.3px;
+
+}
+
+.plans-title-smk {
+    position: absolute;
+    width: 218px;
+    height: 35px;
+    left: 853px;
+    top: 2006.3px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+
+}
+
+.plans-dis-smk {
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 880px;
+    top: 2057.3px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.plan-img-ecm {
+    position: absolute;
+    width: 92.96px;
+    height: 92.96px;
+    left: 1218px;
+    top: 1889.3px;
+
+}
+
+.plans-title-ecm {
+    position: absolute;
+    width: 174px;
+    height: 35px;
+    left: 1177px;
+    top: 2006.3px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+.plans-dis-ecm {
+
+    position: absolute;
+    width: 214px;
+    height: 29px;
+    left: 1157px;
+    top: 2057.3px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* always keep section  */
+.alw-img {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    background-image: url('../images/gradient3.png');
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+}
+
+.alw-title {
+    position: absolute;
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2281.26px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+/* button-------------------- */
+.alw-btn {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2399.26px;
+
+}
+
+/* future section */
+
+.future {
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2652.26px;
+    background: #151414;
+}
+
+.fut-taitle {
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2782.26px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+    color: #F8F8F8;
+
+}
+
+.fut-dis {
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 2851.26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.fut-email {
+    position: absolute;
+    width: 184px;
+    height: 26px;
+    left: 230px;
+    top: 2953.26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.fut-phone {
+    position: absolute;
+    width: 186px;
+    height: 26px;
+    left: 230px;
+    top: 2995.26px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+/* loggo ---------------- */
+.facebook {
+    position: absolute;
+    width: 47px;
+    height: 46px;
+    left: 230px;
+    top: 3053.26px;
+
+}
+
+.twit {
+    position: absolute;
+    width: 47px;
+    height: 46px;
+    left: 294px;
+    top: 3053.26px;
+    background: #FFF
+}
+.youtub{
+    position: absolute;
+width: 46px;
+height: 46px;
+left: 359px;
+top: 3053.26px;
+}
+.sub-title{
+    position: absolute;
+width: 123px;
+height: 29px;
+left: 1046px;
+top: 2782.26px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+/* button */
+.email{
+    position: absolute;
+width: 325px;
+height: 64px;
+left: 1046px;
+top: 2842.26px;
+}
+.sub{
+    
+    position: absolute;
+    width: 170.11px;
+    height: 64px;
+    left: 1046px;
+    top: 2922.26px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
 }
